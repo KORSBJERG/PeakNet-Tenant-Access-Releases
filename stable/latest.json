@@ -1,11 +1,11 @@
 {
   "product": "PeakNet Tenant Access",
   "channel": "stable",
-  "version": "5.3.0",
-  "publishedUtc": "2026-10-27T17:20:16.2938294Z",
-  "packageUrl": "https://github.com/KORSBJERG/PeakNet-Tenant-Access-Releases/releases/download/v5.3.0/PeakNet-Tenant-Access-5.3.0.zip",
-  "packageSha256": "984D7980D3632FC3B0711CA4EDB2A6A5849D181117467B7376027DE6D60693E9",
-  "packageSize": 163975,
-  "releaseNotes": "Secure GitHub Releases updater with atomic signed metadata, pinned PeakNet publisher certificate, staged validation, automatic rollback, and active-session protection.",
+  "version": "5.4.0",
+  "publishedUtc": "2026-10-27T17:48:37.6905914Z",
+  "packageUrl": "https://github.com/KORSBJERG/PeakNet-Tenant-Access-Releases/releases/download/v5.4.0/PeakNet-Tenant-Access-5.4.0.zip",
+  "packageSha256": "9147DCC7E09B3E4FB39AB6AEFA74AA18FD6A025106D0E041266C1D425A9BA0C2",
+  "packageSize": 166056,
+  "releaseNotes": "Redesigned Operations dashboard with modern WPF navigation, KPI cards, clearer tenant tables, and improved visual hierarchy.",
   "minimumVersion": "5.2.1"
 }
