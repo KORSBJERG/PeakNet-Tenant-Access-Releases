@@ -1,0 +1,53 @@
+name: Publish signed PeakNet release
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - stable/latest.json
+      - stable/latest.json.p7s
+      - releases/**
+      - .github/workflows/publish-release.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: peaknet-release
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Read and verify release metadata
+        id: metadata
+        shell: bash
+        run: |
+          set -euo pipefail
+          version="$(jq -r '.version' stable/latest.json)"
+          expected="$(jq -r '.packageSha256' stable/latest.json)"
+          asset="releases/v${version}/PeakNet-Tenant-Access-${version}.zip"
+          test -f "$asset"
+          actual="$(sha256sum "$asset" | awk '{print toupper($1)}')"
+          test "$actual" = "$expected"
+          echo "version=$version" >> "$GITHUB_OUTPUT"
+          echo "asset=$asset" >> "$GITHUB_OUTPUT"
+      - name: Create or update GitHub Release
+        env:
+          GH_TOKEN: ${{ github.token }}
+          VERSION: ${{ steps.metadata.outputs.version }}
+          ASSET: ${{ steps.metadata.outputs.asset }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          tag="v${VERSION}"
+          notes="releases/${tag}/RELEASE-NOTES.md"
+          if gh release view "$tag" >/dev/null 2>&1; then
+            gh release upload "$tag" "$ASSET" --clobber
+            gh release edit "$tag" --title "PeakNet Tenant Access ${VERSION}" --notes-file "$notes" --latest
+          else
+            gh release create "$tag" "$ASSET" --target main --title "PeakNet Tenant Access ${VERSION}" --notes-file "$notes" --latest
+          fi
