@@ -2,10 +2,10 @@
   "product": "PeakNet Tenant Access",
   "channel": "stable",
   "version": "5.3.0",
-  "publishedUtc": "2026-10-27T17:17:25.2790551Z",
+  "publishedUtc": "2026-10-27T17:20:16.2938294Z",
   "packageUrl": "https://github.com/KORSBJERG/PeakNet-Tenant-Access-Releases/releases/download/v5.3.0/PeakNet-Tenant-Access-5.3.0.zip",
-  "packageSha256": "CE594DEFF36FB929654C255BEAA2DA9A4486A9A343CE3804FEA8BB33E4856EDA",
-  "packageSize": 163822,
-  "releaseNotes": "Secure GitHub Releases updater with an atomic signed feed, pinned PeakNet publisher certificate, staged validation, automatic rollback, and active-session protection.",
+  "packageSha256": "984D7980D3632FC3B0711CA4EDB2A6A5849D181117467B7376027DE6D60693E9",
+  "packageSize": 163975,
+  "releaseNotes": "Secure GitHub Releases updater with atomic signed metadata, pinned PeakNet publisher certificate, staged validation, automatic rollback, and active-session protection.",
   "minimumVersion": "5.2.1"
 }
