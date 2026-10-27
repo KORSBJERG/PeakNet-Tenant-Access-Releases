@@ -6,9 +6,10 @@ This repository contains only application packages, the signed update feed, rele
 
 ## Stable update channel
 
-- Feed: `stable/latest.json`
-- Detached CMS signature: `stable/latest.json.p7s`
+- Atomic signed feed: `stable/latest.p7m`
+- Human-readable feed: `stable/latest.json`
+- Optional detached signature for auditing: `stable/latest.json.p7s`
 - Release packages: GitHub Releases
 - Publisher certificate: `publisher/PeakNet-Update-Publisher.cer`
 
-The application pins the PeakNet publisher certificate, verifies the detached feed signature, restricts downloads to this repository, checks package size and SHA-256, validates every packaged file, and installs with automatic rollback.
+The application validates the CMS envelope against its pinned PeakNet publisher certificate, restricts downloads to this repository, checks package size and SHA-256, validates every packaged file, and installs with automatic rollback.
