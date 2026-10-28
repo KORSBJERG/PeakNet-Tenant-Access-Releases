@@ -1,11 +1,11 @@
 {
   "product": "PeakNet Tenant Access",
   "channel": "stable",
-  "version": "5.4.0",
-  "publishedUtc": "2026-10-27T17:48:37.6905914Z",
-  "packageUrl": "https://github.com/KORSBJERG/PeakNet-Tenant-Access-Releases/releases/download/v5.4.0/PeakNet-Tenant-Access-5.4.0.zip",
-  "packageSha256": "9147DCC7E09B3E4FB39AB6AEFA74AA18FD6A025106D0E041266C1D425A9BA0C2",
-  "packageSize": 166056,
-  "releaseNotes": "Redesigned Operations dashboard with modern WPF navigation, KPI cards, clearer tenant tables, and improved visual hierarchy.",
+  "version": "5.4.1",
+  "publishedUtc": "2026-10-28T06:03:16.5286139Z",
+  "packageUrl": "https://github.com/KORSBJERG/PeakNet-Tenant-Access-Releases/releases/download/v5.4.1/PeakNet-Tenant-Access-5.4.1.zip",
+  "packageSha256": "F43F70078240F248FDF6211394364EC3A79281BCE737B6CDCBF4E6644C36088D",
+  "packageSize": 166059,
+  "releaseNotes": "Improves the Session Workspace sidebar layout: more width, balanced spacing, and a clear gutter beside the scrollbar so portal and management controls are never clipped.",
   "minimumVersion": "5.2.1"
 }
