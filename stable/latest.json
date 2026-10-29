@@ -1,11 +1,11 @@
 {
   "product": "PeakNet Tenant Access",
   "channel": "stable",
-  "version": "5.4.1",
-  "publishedUtc": "2026-10-28T06:03:16.5286139Z",
-  "packageUrl": "https://github.com/KORSBJERG/PeakNet-Tenant-Access-Releases/releases/download/v5.4.1/PeakNet-Tenant-Access-5.4.1.zip",
-  "packageSha256": "F43F70078240F248FDF6211394364EC3A79281BCE737B6CDCBF4E6644C36088D",
-  "packageSize": 166059,
-  "releaseNotes": "Improves the Session Workspace sidebar layout: more width, balanced spacing, and a clear gutter beside the scrollbar so portal and management controls are never clipped.",
+  "version": "5.5.0",
+  "publishedUtc": "2026-10-29T06:28:06.9034308Z",
+  "packageUrl": "https://github.com/KORSBJERG/PeakNet-Tenant-Access-Releases/releases/download/v5.5.0/PeakNet-Tenant-Access-5.5.0.zip",
+  "packageSha256": "E8D70FE0E8D822C242C881ACAD15DDFB05499B8F41F563C99FA76F5C5BE21B45",
+  "packageSize": 166985,
+  "releaseNotes": "Faster startup with immediate window rendering, staged logo and integrity loading, persistent catalog snapshots for unchanged OneDrive data, cached logo lookups, and zero-cost stale-session checks when no abandoned profiles exist.",
   "minimumVersion": "5.2.1"
 }
