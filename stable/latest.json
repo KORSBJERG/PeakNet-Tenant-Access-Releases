@@ -1,11 +1,11 @@
 {
   "product": "PeakNet Tenant Access",
   "channel": "stable",
-  "version": "5.5.0",
-  "publishedUtc": "2026-10-29T06:28:06.9034308Z",
-  "packageUrl": "https://github.com/KORSBJERG/PeakNet-Tenant-Access-Releases/releases/download/v5.5.0/PeakNet-Tenant-Access-5.5.0.zip",
-  "packageSha256": "E8D70FE0E8D822C242C881ACAD15DDFB05499B8F41F563C99FA76F5C5BE21B45",
-  "packageSize": 166985,
-  "releaseNotes": "Faster startup with immediate window rendering, staged logo and integrity loading, persistent catalog snapshots for unchanged OneDrive data, cached logo lookups, and zero-cost stale-session checks when no abandoned profiles exist.",
+  "version": "5.6.0",
+  "publishedUtc": "2026-10-29T06:49:53.7333382Z",
+  "packageUrl": "https://github.com/KORSBJERG/PeakNet-Tenant-Access-Releases/releases/download/v5.6.0/PeakNet-Tenant-Access-5.6.0.zip",
+  "packageSha256": "4C3040363B45ED9EF40AED898AEA95DEB18041E1B282C49DC11D0B81772B84F6",
+  "packageSize": 168418,
+  "releaseNotes": "Adds a clear existing-forwarding inventory for each mailbox, including mailbox-level external/internal forwarding and forwarding, redirect, or attachment Inbox Rules. Applying external forwarding now refuses to overwrite existing internal forwarding, and disabling external forwarding preserves internal forwarding and Inbox Rules.",
   "minimumVersion": "5.2.1"
 }
