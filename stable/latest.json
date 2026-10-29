@@ -1,11 +1,11 @@
 {
   "product": "PeakNet Tenant Access",
   "channel": "stable",
-  "version": "5.6.0",
-  "publishedUtc": "2026-10-29T06:49:53.7333382Z",
-  "packageUrl": "https://github.com/KORSBJERG/PeakNet-Tenant-Access-Releases/releases/download/v5.6.0/PeakNet-Tenant-Access-5.6.0.zip",
-  "packageSha256": "4C3040363B45ED9EF40AED898AEA95DEB18041E1B282C49DC11D0B81772B84F6",
+  "version": "5.6.1",
+  "publishedUtc": "2026-10-29T07:04:42.9631837Z",
+  "packageUrl": "https://github.com/KORSBJERG/PeakNet-Tenant-Access-Releases/releases/download/v5.6.1/PeakNet-Tenant-Access-5.6.1.zip",
+  "packageSha256": "8F7E3CFEA93A1E77381A1E78852D06194F1C819B4275D6C8042D4D745EFD5B88",
   "packageSize": 168418,
-  "releaseNotes": "Adds a clear existing-forwarding inventory for each mailbox, including mailbox-level external/internal forwarding and forwarding, redirect, or attachment Inbox Rules. Applying external forwarding now refuses to overwrite existing internal forwarding, and disabling external forwarding preserves internal forwarding and Inbox Rules.",
+  "releaseNotes": "Fixes the external-forwarding device-login launch. The app now passes the resolved Microsoft Edge executable path to the process launcher instead of the Edge descriptor object.",
   "minimumVersion": "5.2.1"
 }
