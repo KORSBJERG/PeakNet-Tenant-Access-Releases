@@ -1,11 +1,11 @@
 {
   "product": "PeakNet Tenant Access",
   "channel": "stable",
-  "version": "5.7.2",
-  "publishedUtc": "2026-10-30T08:15:29.4873263Z",
-  "packageUrl": "https://github.com/KORSBJERG/PeakNet-Tenant-Access-Releases/releases/download/v5.7.2/PeakNet-Tenant-Access-5.7.2.zip",
-  "packageSha256": "7AF576AE2C7CB114A1B92369B4A72EA898627B4BFF2F3569FBCBDA90B7CE5E20",
-  "packageSize": 179958,
-  "releaseNotes": "Fixes the ESPM unavailable marker rendering as mojibake by using the encoding-safe text N/A throughout the dashboard, billing calculations, snapshots and CSV exports.",
+  "version": "5.8.0",
+  "publishedUtc": "2026-10-30T08:19:05.0133475Z",
+  "packageUrl": "https://github.com/KORSBJERG/PeakNet-Tenant-Access-Releases/releases/download/v5.8.0/PeakNet-Tenant-Access-5.8.0.zip",
+  "packageSha256": "6B2AFE9312FA7BA5D890D76B46AC7CBEE8F170960D274786B4B09A0416A5F3E8",
+  "packageSize": 181070,
+  "releaseNotes": "Corrects DSData ownership by recognizing Huntress organizations beginning with DS, adds separate per-product DSData totals, and expands customer details with billable versus total identities, endpoint health, SIEM usage, incident count and matching evidence.",
   "minimumVersion": "5.2.1"
 }
