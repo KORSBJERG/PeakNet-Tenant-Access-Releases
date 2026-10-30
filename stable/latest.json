@@ -1,11 +1,11 @@
 {
-  "product": "PeakNet Tenant Access",
-  "channel": "stable",
-  "version": "5.8.1",
-  "publishedUtc": "2026-10-30T08:22:36.9929637Z",
-  "packageUrl": "https://github.com/KORSBJERG/PeakNet-Tenant-Access-Releases/releases/download/v5.8.1/PeakNet-Tenant-Access-5.8.1.zip",
-  "packageSha256": "6E773605ED239FB5EC88F47822434C248A5AF883EAE18201E4E93C7F55F40587",
-  "packageSize": 182060,
-  "releaseNotes": "Adds PeakNet Huntress contract costs in EUR, converts them to DKK using the 2026-10-29 ECB reference rate, sets sales prices to exactly twice the rounded DKK cost, and exposes EUR price, exchange rate, DKK cost and sales price in Settings.",
-  "minimumVersion": "5.2.1"
+    "product":  "PeakNet Tenant Access",
+    "channel":  "stable",
+    "version":  "5.9.0",
+    "publishedUtc":  "2026-10-30T09:00:05.3989604Z",
+    "packageUrl":  "https://github.com/KORSBJERG/PeakNet-Tenant-Access-Releases/releases/download/v5.9.0/PeakNet-Tenant-Access-5.9.0.zip",
+    "packageSha256":  "7C4CFB2A6F99049FD9251B6F246A079241945D9B4469A2399EA92BA3E11DAA64",
+    "packageSize":  182015,
+    "releaseNotes":  "Adds dedicated PeakNet and DSData revenue tabs with separate monthly revenue, cost, margin and product license totals.",
+    "minimumVersion":  "5.2.1"
 }
