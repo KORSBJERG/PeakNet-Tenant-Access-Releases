@@ -1,11 +1,11 @@
 {
     "product":  "PeakNet Tenant Access",
     "channel":  "stable",
-    "version":  "5.9.0",
-    "publishedUtc":  "2026-10-30T09:00:05.3989604Z",
-    "packageUrl":  "https://github.com/KORSBJERG/PeakNet-Tenant-Access-Releases/releases/download/v5.9.0/PeakNet-Tenant-Access-5.9.0.zip",
-    "packageSha256":  "7C4CFB2A6F99049FD9251B6F246A079241945D9B4469A2399EA92BA3E11DAA64",
-    "packageSize":  182015,
-    "releaseNotes":  "Adds dedicated PeakNet and DSData revenue tabs with separate monthly revenue, cost, margin and product license totals.",
+    "version":  "6.0.0",
+    "publishedUtc":  "2026-10-30T11:59:52.7392614Z",
+    "packageUrl":  "https://github.com/KORSBJERG/PeakNet-Tenant-Access-Releases/releases/download/v6.0.0/PeakNet-Tenant-Access-6.0.0.zip",
+    "packageSha256":  "6F10D2EE0A0D3DA94652A20DC3FB4E71D8169916C38AE7804029B3587D0396B3",
+    "packageSize":  190808,
+    "releaseNotes":  "Adds a read-only Crayon Microsoft 365 licensing and billing dashboard with separate PeakNet and DSData views, renewal dates, costs, known revenue and profit.",
     "minimumVersion":  "5.2.1"
 }
