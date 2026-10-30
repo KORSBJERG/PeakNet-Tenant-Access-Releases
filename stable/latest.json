@@ -1,11 +1,11 @@
 {
   "product": "PeakNet Tenant Access",
   "channel": "stable",
-  "version": "5.8.0",
-  "publishedUtc": "2026-10-30T08:19:05.0133475Z",
-  "packageUrl": "https://github.com/KORSBJERG/PeakNet-Tenant-Access-Releases/releases/download/v5.8.0/PeakNet-Tenant-Access-5.8.0.zip",
-  "packageSha256": "6B2AFE9312FA7BA5D890D76B46AC7CBEE8F170960D274786B4B09A0416A5F3E8",
-  "packageSize": 181070,
-  "releaseNotes": "Corrects DSData ownership by recognizing Huntress organizations beginning with DS, adds separate per-product DSData totals, and expands customer details with billable versus total identities, endpoint health, SIEM usage, incident count and matching evidence.",
+  "version": "5.8.1",
+  "publishedUtc": "2026-10-30T08:22:36.9929637Z",
+  "packageUrl": "https://github.com/KORSBJERG/PeakNet-Tenant-Access-Releases/releases/download/v5.8.1/PeakNet-Tenant-Access-5.8.1.zip",
+  "packageSha256": "6E773605ED239FB5EC88F47822434C248A5AF883EAE18201E4E93C7F55F40587",
+  "packageSize": 182060,
+  "releaseNotes": "Adds PeakNet Huntress contract costs in EUR, converts them to DKK using the 2026-10-29 ECB reference rate, sets sales prices to exactly twice the rounded DKK cost, and exposes EUR price, exchange rate, DKK cost and sales price in Settings.",
   "minimumVersion": "5.2.1"
 }
