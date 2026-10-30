@@ -1,11 +1,11 @@
 {
   "product": "PeakNet Tenant Access",
   "channel": "stable",
-  "version": "5.7.1",
-  "publishedUtc": "2026-10-30T08:11:45.2291969Z",
-  "packageUrl": "https://github.com/KORSBJERG/PeakNet-Tenant-Access-Releases/releases/download/v5.7.1/PeakNet-Tenant-Access-5.7.1.zip",
-  "packageSha256": "4D5D3262EDE649A281C248FB7620545EF894A248E3F7EF05B4FD80426C084E38",
-  "packageSize": 179946,
-  "releaseNotes": "Fixes Huntress synchronization when the final API page omits the optional next_page_url pagination field.",
+  "version": "5.7.2",
+  "publishedUtc": "2026-10-30T08:15:29.4873263Z",
+  "packageUrl": "https://github.com/KORSBJERG/PeakNet-Tenant-Access-Releases/releases/download/v5.7.2/PeakNet-Tenant-Access-5.7.2.zip",
+  "packageSha256": "7AF576AE2C7CB114A1B92369B4A72EA898627B4BFF2F3569FBCBDA90B7CE5E20",
+  "packageSize": 179958,
+  "releaseNotes": "Fixes the ESPM unavailable marker rendering as mojibake by using the encoding-safe text N/A throughout the dashboard, billing calculations, snapshots and CSV exports.",
   "minimumVersion": "5.2.1"
 }
