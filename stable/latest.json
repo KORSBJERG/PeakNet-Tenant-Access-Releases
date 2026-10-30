@@ -1,11 +1,11 @@
 {
   "product": "PeakNet Tenant Access",
   "channel": "stable",
-  "version": "5.6.1",
-  "publishedUtc": "2026-10-29T07:04:42.9631837Z",
-  "packageUrl": "https://github.com/KORSBJERG/PeakNet-Tenant-Access-Releases/releases/download/v5.6.1/PeakNet-Tenant-Access-5.6.1.zip",
-  "packageSha256": "8F7E3CFEA93A1E77381A1E78852D06194F1C819B4275D6C8042D4D745EFD5B88",
-  "packageSize": 168418,
-  "releaseNotes": "Fixes the external-forwarding device-login launch. The app now passes the resolved Microsoft Edge executable path to the process launcher instead of the Edge descriptor object.",
+  "version": "5.7.0",
+  "publishedUtc": "2026-10-30T07:45:47.7380571Z",
+  "packageUrl": "https://github.com/KORSBJERG/PeakNet-Tenant-Access-Releases/releases/download/v5.7.0/PeakNet-Tenant-Access-5.7.0.zip",
+  "packageSha256": "02349518259B5B5F5E77ABC09334736B246AB8147FC70F1251D651D3395362F9",
+  "packageSize": 179802,
+  "releaseNotes": "Adds a secure read-only Huntress integration with customer incident visibility, EDR/ITDR/SIEM/ESPM/ISPM usage, shared cost and sales pricing, monthly billing snapshots, CSV export, and a dedicated DSData license statement.",
   "minimumVersion": "5.2.1"
 }
